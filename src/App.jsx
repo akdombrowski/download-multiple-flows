@@ -26,7 +26,7 @@ export default function App({ debug }) {
 
   // Automatically triggers download on initial render
   useEffect(() => {
-    // downloadFlowJSONFromGH();
+    downloadFlowJSONFromGH();
   }, []);
 
   /**
